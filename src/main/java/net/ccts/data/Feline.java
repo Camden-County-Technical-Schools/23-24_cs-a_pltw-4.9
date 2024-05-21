@@ -10,6 +10,10 @@ public abstract class Feline extends Animal
     System.out.println("The feline growls.");
   }
 
+public Feline () {
+
+}
+
 public Feline(String food, boolean nocturnal, double aveLifeSpan) {
         super(food, nocturnal, aveLifeSpan);
         System.out.println("A feline arrives.");

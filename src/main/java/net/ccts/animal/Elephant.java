@@ -10,6 +10,10 @@ public void trumpet() {
     System.out.println("The elephants trumpets.");
   }
 
+public Elephant() {
+  
+}
+
 public Elephant(String food, boolean nocturnal, double aveLifeSpan) {
         super(food, nocturnal, aveLifeSpan);
         System.out.println("A new elephant arrives.");

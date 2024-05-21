@@ -1,6 +1,7 @@
 package net.ccts.core;
 
 import net.ccts.data.*;
+import net.ccts.animal.*;
 
 public class ZooKeeperRunner {
 

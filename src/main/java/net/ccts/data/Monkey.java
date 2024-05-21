@@ -24,4 +24,9 @@ public class Monkey extends Primate
     super(food, nocturnal, aveLifeSpan);
     System.out.println("A Gorilla has arrived at the Zoo");
   }
+
+  @Override
+  public void forage() {
+    System.out.println("The monkey forages for seeds");
+  }
 }

@@ -13,4 +13,8 @@ public abstract class Hooved extends Animal
     public Hooved(String food, boolean nocturnal, double aveLifeSpan) {   
     super(food, nocturnal, aveLifeSpan);
     }
+  @Override
+  public void sleep() {
+    System.out.println("zzz bleat zzz");
+  }
 }

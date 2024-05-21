@@ -3,13 +3,13 @@ package net.ccts.data;
 /*
  * Activity 4.9.2
  */
-public class Giraffe extends Hooved
+public class Owl extends Animal
 {
-  public void hum()
+  public void hunt()
   {
-    System.out.println("The giraffe hums.");
+    System.out.println("The Owl hunts.");
   }
-  public Giraffe(String food, boolean nocturnal, 
+  public Owl(String food, boolean nocturnal, 
                 double aveLifeSpan)
     {
     super(food, nocturnal, aveLifeSpan);

@@ -40,12 +40,14 @@ public class ZooKeeperRunner {
         
 
         Gorilla gorilla = new Gorilla();
-
+        gorilla.sleep();
+        gorilla.forage();
         System.out.println();
 
         
         Giraffe giraffe = new Giraffe("leaves", false, 25.0);
         giraffe.eat();
+        giraffe.sleep();
 
         System.out.println();
         
@@ -53,6 +55,7 @@ public class ZooKeeperRunner {
         // step 29
         Hippo hippo = new Hippo();
         hippo.eat();
+        hippo.sleep();
 
         System.out.println();
 
@@ -66,7 +69,13 @@ public class ZooKeeperRunner {
         owl.hunt();
         Owl owl2 = new Owl("mice,insects", true, 4.0);
         owl2.eat();
+
+        Deer deer = new Deer();
+        deer.sleep();
         
+        Monkey monkey = new Monkey();
+        monkey.sleep();
+        monkey.forage();
 
         System.out.println("done");
 

@@ -14,6 +14,7 @@ public abstract class Animal
         System.out.println("This animal's diet consists of " + food + ".");
     }
 
+
     public void isNocturnal()
     {
         if (nocturnal)

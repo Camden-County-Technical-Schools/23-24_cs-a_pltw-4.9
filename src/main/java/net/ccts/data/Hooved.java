@@ -16,4 +16,8 @@ public abstract class Hooved extends Animal
     super(food, nocturnal, aveLifeSpan);
     System.out.println("New hooved animal has arrived.");
   } 
+  public void sleep()
+  {
+    System.out.println("zzz bleat zzz");
+  }
 }

@@ -14,5 +14,10 @@ public class Deer extends Hooved
                 double aveLifeSpan)
     {
     super(food, nocturnal, aveLifeSpan);
-    }                 
+    }           
+  public void sleep()
+  {
+    System.out.println("snort");
+    super.sleep();
+  }      
 }

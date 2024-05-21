@@ -1,5 +1,5 @@
-package net.ccts.data;
-
+package net.ccts.animal;
+import net.ccts.data.*;
 /*
  * Activity 4.9.2
  */

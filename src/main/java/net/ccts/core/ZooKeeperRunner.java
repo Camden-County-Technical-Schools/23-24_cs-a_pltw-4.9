@@ -1,6 +1,7 @@
 package net.ccts.core;
 
 import net.ccts.data.*;
+import net.ccts.animal.*;
 
 public class ZooKeeperRunner {
 
@@ -56,7 +57,7 @@ public class ZooKeeperRunner {
 
         System.out.println();
 
-        
+        /*
         Penguin penguin = new Penguin();
         penguin.fish();
 
@@ -66,7 +67,7 @@ public class ZooKeeperRunner {
         owl.hunt();
         Owl owl2 = new Owl("mice,insects", true, 4.0);
         owl2.eat();
-        
+        */
 
         System.out.println("done");
 

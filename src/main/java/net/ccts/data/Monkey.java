@@ -5,6 +5,11 @@ package net.ccts.data;
  */
 public class Monkey extends Primate
 {
+  public Monkey()
+  {
+    System.out.println("A monkey arrives.");
+  }
+
   public void climb()
   {
     System.out.println("The monkey climbs.");

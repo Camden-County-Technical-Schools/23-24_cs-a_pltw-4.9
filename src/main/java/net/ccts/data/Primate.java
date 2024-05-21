@@ -5,6 +5,11 @@ package net.ccts.data;
  */
 public abstract class Primate extends Animal
 {
+  public Primate()
+  {
+    
+  }
+
   public void forage()
   {
     System.out.println("The primate forages for food.");

@@ -5,6 +5,10 @@ package net.ccts.data;
  */
 public class Deer extends Hooved
 {
+  public Deer() {
+    
+  }
+
   public void grunt()
   {
     System.out.println("The deer grunts.");

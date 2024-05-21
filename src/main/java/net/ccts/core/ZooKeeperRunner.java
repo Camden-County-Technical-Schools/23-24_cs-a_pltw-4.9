@@ -54,18 +54,37 @@ public class ZooKeeperRunner {
         */
 
         // step 27
-        /*
-        Giraffe giraffe = new Giraffe("leaves", false, 25.0);
-        giraffe.eat();
+        
+        Giraffe giraffe = new Giraffe();
+        giraffe.sleep();
 
         System.out.println();
-        */
 
-        // step 29
+        Deer deer = new Deer();
+        deer.sleep();
+
+        System.out.println();
+
         Hippo hippo = new Hippo();
-        hippo.eat();
+        hippo.sleep();
 
         System.out.println();
+
+        Monkey monkey = new Monkey();
+        monkey.sleep();
+        monkey.forage();
+
+        System.out.println();
+
+
+        Gorilla gorilla = new Gorilla();
+        gorilla.sleep();
+        gorilla.forage();
+
+        System.out.println();
+
+
+
 
         /*
         Penguin penguin = new Penguin();

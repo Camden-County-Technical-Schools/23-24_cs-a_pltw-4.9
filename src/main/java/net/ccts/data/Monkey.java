@@ -19,4 +19,8 @@ public class Monkey extends Primate
   {
     System.out.println("The monkey howls.");
   }
+
+  public void sleep(){
+    System.out.println(" The Monkey sleeps.");
+  }
 }

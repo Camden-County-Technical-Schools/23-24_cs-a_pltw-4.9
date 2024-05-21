@@ -7,6 +7,6 @@ public abstract class Primate extends Animal
 {
   public void forage()
   {
-    System.out.println("The primate forages for food.");
+    System.out.println("This primate forages for food.");
   }
 }

@@ -6,39 +6,34 @@ public class ZooKeeperRunner {
 
     public static void main(String[] args)
     {
-        // step 6:     Elephant elephant = new Elephant();
 
         // step 14
-        /*
         Elephant elephant = new Elephant("leaves, grasses, roots", false, 60.0);
         elephant.trumpet();
-        */
+        
+
 
         // step 15
-        /*
+        
         elephant.forage();
         elephant.eat();
         elephant.isNocturnal();
         elephant.getLifeSpan();
 
         System.out.println();
-        */
+        
 
 
-        // step 8:     Tiger tiger = new Tiger();
-
-        // step 22
-        /*
         Tiger tiger = new Tiger("meat", true, 17.0);
         tiger.swim();
         tiger.huntAlone();
-        // step 10
+
         tiger.growl();
         tiger.eat();
         tiger.isNocturnal();
 
-        System.out.println();
-        */
+        //System.out.println();
+        
 
         // step 24
         /*

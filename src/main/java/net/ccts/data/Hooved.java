@@ -10,4 +10,8 @@ public abstract class Hooved extends Animal
   {
     System.out.println("The hooved animal forages for food.");
   }
+
+  public Hooved(){
+    
+  }
 }

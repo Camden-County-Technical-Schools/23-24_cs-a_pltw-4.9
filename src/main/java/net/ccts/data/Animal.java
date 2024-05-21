@@ -30,5 +30,18 @@ public abstract class Animal
     public void sleep()
     {
         System.out.println("zzzzz");
+
+    } 
+    
+    public Animal(){
     }
+
+    public Animal(String food, boolean nocturnal, double aveLifeSpan)
+    {
+        this.food = food;
+        this.nocturnal = nocturnal;
+        this.aveLifeSpan = aveLifeSpan;
+    }
+
+
 }

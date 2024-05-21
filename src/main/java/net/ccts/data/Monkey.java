@@ -19,4 +19,9 @@ public class Monkey extends Primate
   {
     System.out.println("The monkey howls.");
   }
+
+  public Monkey(String food, boolean nocturnal, double aveLifeSpan) {   
+    super(food, nocturnal, aveLifeSpan);
+    System.out.println("A Gorilla has arrived at the Zoo");
+  }
 }

@@ -9,4 +9,9 @@ public class Hippo extends Hooved
   {
     System.out.println("The hippo groans.");
   }
+
+  public Hippo(String food, boolean nocturnal, double aveLifeSpan) {   
+    super(food, nocturnal, aveLifeSpan);
+    System.out.println("An Hippo has arrived at the Zoo");
+  }
 }

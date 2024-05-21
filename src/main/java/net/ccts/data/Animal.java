@@ -31,4 +31,14 @@ public abstract class Animal
     {
         System.out.println("zzzzz");
     }
+
+    public Animal(String food, boolean nocturnal,double aveLifeSpan){ 
+        this.food = food;
+        this.nocturnal = nocturnal;
+        this.aveLifeSpan = aveLifeSpan;
+    }
+    
+    public Animal()
+    {
+    }
 }

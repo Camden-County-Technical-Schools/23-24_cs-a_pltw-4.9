@@ -57,6 +57,19 @@ public class ZooKeeperRunner {
         
 
         System.out.println("done");
+        System.out.println("override project!");
+        Giraffe giraffe2 = new Giraffe("leaves", false, 25.0);
+        Deer deer2 = new Deer();
+        Hippo hippo2 = new Hippo();
+        Monkey monkey = new Monkey();
+        Gorilla gorilla2 = new Gorilla();
+        giraffe2.sleep();
+        deer2.sleep();
+        hippo2.sleep();
+        monkey.sleep();
+        gorilla2.sleep();
+        monkey.forage();
+        gorilla2.forage();
 
     }
 

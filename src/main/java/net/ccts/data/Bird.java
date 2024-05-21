@@ -4,12 +4,12 @@ package net.ccts.data;
 /*
  * Activity 4.9.2
  */
-public abstract class Hooved extends Animal
+public abstract class Bird extends Animal
 {
-public Hooved()
+public Bird()
 {
 }
-public Hooved(String food, boolean nocturnal, double aveLifeSpan)
+public Bird(String food, boolean nocturnal, double aveLifeSpan)
 {
   super(food, nocturnal, aveLifeSpan);
 }

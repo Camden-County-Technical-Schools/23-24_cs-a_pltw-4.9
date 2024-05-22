@@ -15,6 +15,8 @@ public abstract class Animal
 
     public Animal(String goof, boolean nocturnal, double aveLifeSpan)
     {
+        // The variable this.food is assigned to itself.
+        // Needs to be assigned to a parameter passed-in by the caller.
      this.food = food;
      this.nocturnal = nocturnal;
      this.aveLifeSpan = aveLifeSpan;

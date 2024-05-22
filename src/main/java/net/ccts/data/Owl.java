@@ -1,6 +1,6 @@
 package net.ccts.data;
 
-public class Owl extends Animal {
+public class Owl extends Bird {
     public Owl(String food, boolean nocturnal, double aveLifeSpan) {
         super(food, nocturnal, aveLifeSpan);
     }

@@ -1,6 +1,6 @@
 package net.ccts.data;
 
-public class Penguin extends Animal{
+public class Penguin extends Bird{
     public Penguin(String food, boolean nocturnal, double aveLifeSpan) {
         super(food, nocturnal, aveLifeSpan);
     }

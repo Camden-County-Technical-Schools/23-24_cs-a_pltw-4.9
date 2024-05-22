@@ -13,6 +13,8 @@ public abstract class Animal
     {
     }
 
+    // This is the exact same error from other students
+    // Please resolve this on your own to receive full credit
     public Animal(String goof, boolean nocturnal, double aveLifeSpan)
     {
      this.food = food;

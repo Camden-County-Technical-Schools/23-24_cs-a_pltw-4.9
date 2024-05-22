@@ -23,10 +23,14 @@ public class ZooKeeperRunner {
 
         System.out.println();
         */
+Elephant elephant = new Elephant("leaves, grasses, roots", false, 60.0);
+elephant.trumpet();
 
 
         // step 8:     Tiger tiger = new Tiger();
-
+Tiger tiger = new Tiger("meat", true, 17.0);
+tiger.swim();
+tiger.huntAlone();
         // step 22
         /*
         Tiger tiger = new Tiger("meat", true, 17.0);

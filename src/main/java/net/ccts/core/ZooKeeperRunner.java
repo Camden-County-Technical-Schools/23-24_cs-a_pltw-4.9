@@ -1,9 +1,11 @@
 package net.ccts.core;
 
+import net.ccts.data.Deer;
 import net.ccts.data.Elephant;
 import net.ccts.data.Giraffe;
 import net.ccts.data.Gorilla;
 import net.ccts.data.Hippo;
+import net.ccts.data.Monkey;
 import net.ccts.data.Owl;
 import net.ccts.data.Penguin;
 import net.ccts.data.Tiger;
@@ -60,14 +62,23 @@ public class ZooKeeperRunner {
         // step 25
         
         Gorilla gorilla = new Gorilla();
+        gorilla.sleep();
+        gorilla.forage();
 
         System.out.println();
         
-
+        // Overide
+        Deer deer = new Deer();
+        deer.sleep();
+        
+        Monkey monkey = new Monkey();
+        monkey.sleep();
+        monkey.forage();
         // step 27
         
         Giraffe giraffe = new Giraffe("leaves", false, 25.0);
         giraffe.eat();
+        giraffe.sleep();
 
         System.out.println();
         
@@ -75,6 +86,7 @@ public class ZooKeeperRunner {
         // step 29
         Hippo hippo = new Hippo(null, false, 0);
         hippo.eat();
+        hippo.sleep();
 
         System.out.println();
 

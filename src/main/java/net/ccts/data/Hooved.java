@@ -17,6 +17,11 @@ public abstract class Hooved extends Animal
   
   }
   
+  @Override
+  public void sleep() {
+    System.out.println("zzz bleat zzz");
+  }
+
   public void forage()
   {
     System.out.println("The hooved animal forages for food.");

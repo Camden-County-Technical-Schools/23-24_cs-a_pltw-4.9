@@ -13,7 +13,7 @@ public abstract class Animal
     {
     }
 
-    public Animal(String goof, boolean nocturnal, double aveLifeSpan)
+    public Animal(String food, boolean nocturnal, double aveLifeSpan)
     {
      this.food = food;
      this.nocturnal = nocturnal;

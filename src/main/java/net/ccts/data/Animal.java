@@ -27,8 +27,8 @@ public abstract class Animal
         System.out.println("This animal's life span is " + aveLifeSpan + " years.");
     }
 
-    public void sleep()
-    {
-        System.out.println("zzzzz");
+    public void sleep() {
+        System.out.println("zzz");
     }
+
 }

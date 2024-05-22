@@ -19,4 +19,13 @@ public class Monkey extends Primate
   {
     System.out.println("The monkey howls.");
   }
+    @Override
+    public void forage() {
+        System.out.println("The monkey forages for seeds");
+    }
+
+    @Override
+    public void sleep() {
+        System.out.println("Monkey sleeps in trees");
+    }
 }

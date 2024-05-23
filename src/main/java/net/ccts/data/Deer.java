@@ -5,13 +5,17 @@ package net.ccts.data;
  */
 public class Deer extends Hooved
 {
-  public void grunt()
-  {
-    System.out.println("The deer grunts.");
-  }
+    @Override
+    public void speak() {
+      grunt();
+    }
+
+    public void grunt() {
+        System.out.println("Deer grunts");
+    }
     @Override
     public void sleep() {
-        System.out.print("snort ");
+        System.out.print("snort");
         super.sleep();
     }
 }

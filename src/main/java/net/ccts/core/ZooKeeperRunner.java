@@ -6,7 +6,10 @@ public class ZooKeeperRunner {
 
     public static void main(String[] args)
     {
-        // step 6:     Elephant elephant = new Elephant();
+    
+public abstract void speak();
+       
+           //Elephant elephant = new Elephant();
 
         // step 14
         /*

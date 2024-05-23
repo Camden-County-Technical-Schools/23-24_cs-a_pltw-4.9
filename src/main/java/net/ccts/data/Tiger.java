@@ -1,5 +1,5 @@
 package net.ccts.data;
-class abstract class Tiger extends Feline(){
+public class Tiger extends Feline{
     public void huntAlone(){
         System.out.println("The tiger hunts alone");
     }

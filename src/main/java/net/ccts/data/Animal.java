@@ -31,11 +31,6 @@ public abstract class Animal
         System.out.println("zzz");
     }
     
-    /**
-     * public abstract void speak(){
 
-    }
-     */
-    
 
 }

@@ -5,10 +5,10 @@ package net.ccts.data;
  */
 public class Deer extends Hooved
 {
-    @Override
-    public void speak() {
-      grunt();
-    }
+//    @Override
+//    public void speak() {
+//      grunt();
+//    }
 
     public void grunt() {
         System.out.println("Deer grunts");

@@ -18,4 +18,9 @@ public class Elephant extends Animal {
     public void forage() {
         System.out.println("*elephant makes foraging sounds");
     }
+
+    @Override
+    public void speak() {
+        trumpet();
+    }
 }

@@ -11,4 +11,9 @@ public class Owl extends Bird {
     public void hunt() {
         System.out.println("Owl Hunts");
     }
+
+    @Override
+    public void speak() {
+        System.out.println("An owl hoots.");
+    }
 }

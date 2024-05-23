@@ -24,4 +24,10 @@ public class Monkey extends Primate
   public void forage() {
     System.out.println("The monkey forages for seeds.");
   }
+
+  @Override
+  public void speak() {
+    hoot();
+    howl();
+  }
 }

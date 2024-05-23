@@ -31,30 +31,36 @@ public class ZooKeeperRunner {
         tiger.growl();
         tiger.eat();
         tiger.isNocturnal();
+        tiger.getLifeSpan();
 
-        //System.out.println();
+        System.out.println();
         
 
-        // step 24
-        /*
+        
+        
         Tiger tiger2 = new Tiger();
         Elephant elephant2 = new Elephant();
-         */
+        
 
-        // step 25
-        /*
+        
         Gorilla gorilla = new Gorilla();
 
         System.out.println();
-        */
+        
 
-        // step 27
-        /*
+       
         Giraffe giraffe = new Giraffe("leaves", false, 25.0);
         giraffe.eat();
+        giraffe.hum();
+
+        giraffe.eat();
+        giraffe.isNocturnal();
+        giraffe.getLifeSpan();
+
+
 
         System.out.println();
-        */
+        
 
         // step 29
         Hippo hippo = new Hippo();

@@ -11,6 +11,12 @@ public class Giraffe extends Hooved
   }
 
   public Giraffe(){
-    
+
   }
+
+  public Giraffe(String food, boolean nocturnal, double aveLifeSpan)
+    {
+      super(food, nocturnal, aveLifeSpan);
+      System.out.println("The Tiger has arrived");
+    }   
 }

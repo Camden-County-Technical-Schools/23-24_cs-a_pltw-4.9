@@ -10,6 +10,10 @@ public class Elephant extends Animal{
         System.out.println("The Elephant forages for food.");
     }
 
+    public Elephant(){
+        
+    }
+
     public Elephant(String food, boolean nocturnal, double aveLifeSpan)
     {
         super(food, nocturnal, aveLifeSpan);

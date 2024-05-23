@@ -11,6 +11,9 @@ public class Tiger extends Feline{
         System.out.println("The tiger swims");
     }
 
+    public Tiger(){
+        
+    }
     public Tiger(String food, boolean nocturnal, 
         double aveLifeSpan)
     {

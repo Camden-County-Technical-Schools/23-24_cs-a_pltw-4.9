@@ -11,6 +11,7 @@ public class Gorilla extends Primate
   }
 
   public Gorilla(){
-    
+
+    System.out.println("The Gorilla has Arrived");
   }
 }

@@ -15,7 +15,7 @@ public abstract class Animal
 
     public Animal(String goof, boolean nocturnal, double aveLifeSpan)
     {
-     this.food = food;
+     this.food = goof;
      this.nocturnal = nocturnal;
      this.aveLifeSpan = aveLifeSpan;
     }

@@ -3,15 +3,22 @@ package net.ccts.data;
 /*
  * Activity 4.9.2
  */
-public class Giraffe extends Hooved
-{
-  public void hum()
-  {
+public class Giraffe extends Hooved {
+  public void hum() {
     System.out.println("The giraffe hums.");
   }
 
-  public Giraffe(String food, boolean nocturnal, double aveLifeSpan) {   
+  public Giraffe(String food, boolean nocturnal, double aveLifeSpan) {
     super(food, nocturnal, aveLifeSpan);
-    System.out.println("An Giraffe has arrived at the Zoo");
+    System.out.println("A Giraffe has arrived at the Zoo");
+  }
+  @Override
+  public void speak() {
+    hum();
+  }
+
+  @Override
+  public void sleep() {
+    System.out.println("zzz bleat zzz");
   }
 }

@@ -3,7 +3,7 @@ package net.ccts.data;
 /*
  * Activity 4.9.2
  */
-public class Bird extends Animal
+public abstract class Bird extends Animal
 {
   public void Barking()
   {

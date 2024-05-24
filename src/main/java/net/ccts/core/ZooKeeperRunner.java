@@ -1,8 +1,9 @@
 package net.ccts.core;
 
 import net.ccts.data.*;
-
+import java.util.ArrayList;
 public class ZooKeeperRunner {
+    private static final ArrayList<Animal> zoo = new ArrayList<>(); 
 
     public static void main(String[] args)
     {
@@ -35,6 +36,9 @@ public class ZooKeeperRunner {
         Elephant elephant2 = new Elephant();
          */
 
+        Lion lion = new Lion("meat", true, 20.0);
+        lion.sleep();
+
         // step 25
         Gorilla gorilla = new Gorilla("bamboo", false, 35.0);
         gorilla.sleep();
@@ -61,7 +65,7 @@ public class ZooKeeperRunner {
         Deer deer = new Deer("grass", false, 15.0);
         deer.sleep();
         
-        Penguin penguin = new Penguin("Fish", false, 60.0);
+        Penguin penguin = new Penguin("fish", false, 20.0);
         penguin.eat();
 
         System.out.println();
@@ -74,6 +78,28 @@ public class ZooKeeperRunner {
 
         System.out.println("done");
 
+        zoo.add(giraffe);
+        zoo.add(deer);
+        zoo.add(hippo);
+        zoo.add(monkey);
+        zoo.add(gorilla);
+        zoo.add(elephant);
+        zoo.add(lion);
+        zoo.add(owl);
+        zoo.add(penguin);
+        zoo.add(tiger);
+
+        for (Animal animal : zoo) {
+            animal.speak();
+        }
+
+        giraffe.sleep();
+        deer.sleep();
+        hippo.sleep();
+        monkey.sleep();
+        gorilla.sleep();
+        monkey.forage();
+        gorilla.forage();
     }
 
 }

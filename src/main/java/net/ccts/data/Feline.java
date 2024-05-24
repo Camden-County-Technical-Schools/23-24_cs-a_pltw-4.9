@@ -3,7 +3,7 @@ package net.ccts.data;
 /*
  * Activity 4.9.2
  */
-public class Feline extends Animal
+public abstract class Feline extends Animal
 {
   public void roar()
   {

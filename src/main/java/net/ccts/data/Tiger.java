@@ -18,4 +18,9 @@ public Tiger(String food, boolean nocturnal, double aveLifeSpan)
   {
     System.out.println("The Tiger swims in the water.");
   }
+@Override
+public void speak()
+{
+  super.growl();
+}
 }

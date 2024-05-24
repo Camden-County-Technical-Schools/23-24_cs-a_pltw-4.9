@@ -21,4 +21,9 @@ public Elephant(String food, boolean nocturnal, double aveLifeSpan)
   {
     System.out.println("The elephant forages for food.");
   }
+@Override
+public void speak()
+{
+  this.trumpet();
+}
 }

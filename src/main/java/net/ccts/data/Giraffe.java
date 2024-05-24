@@ -14,4 +14,9 @@ public Giraffe(String food, boolean nocturnal, double aveLifeSpan)
   {
     System.out.println("The giraffe hums.");
   }
+@Override
+public void speak()
+{
+  this.hum();
+}
 }

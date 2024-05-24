@@ -17,4 +17,9 @@ public Owl(String food, boolean nocturnal, double aveLifeSpan)
   {
     System.out.println("The owl hunts its prey!");
   }
+@Override
+public void speak()
+{
+  System.out.println("An owl hoots.");
+}
 }

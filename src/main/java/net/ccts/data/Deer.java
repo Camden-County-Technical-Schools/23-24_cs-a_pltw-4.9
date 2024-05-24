@@ -18,4 +18,9 @@ public void sleep()
   System.out.println("snort");
   super.sleep();
 }
+@Override
+public void speak()
+{
+  this.grunt();
+}
 }

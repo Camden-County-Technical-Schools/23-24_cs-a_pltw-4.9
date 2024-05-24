@@ -13,4 +13,9 @@ public Lion(String food, boolean nocturnal, double aveLifeSpan)
   {
     System.out.println("The Lion hunts in a pack for food.");
   }
+@Override
+public void speak()
+{
+  super.roar();
+}
 }

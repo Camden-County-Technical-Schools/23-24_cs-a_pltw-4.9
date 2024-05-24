@@ -18,4 +18,9 @@ public void forage()
 {
   System.out.println("The gorilla forages for bamboo shoots.");
 }
+@Override
+public void speak()
+{
+  this.grunt();
+}
 }

@@ -17,4 +17,8 @@ public void forage()
   {
     System.out.println("The gorilla forages for bamboo shoots");
   }
+  public void speak()
+  {
+    this.grunt();
+  }
 }

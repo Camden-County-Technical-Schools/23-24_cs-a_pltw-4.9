@@ -23,6 +23,9 @@ public class Elephant extends Animal
   }
 
 public Elephant(){}
-
+public void speak()
+  {
+    this.trumpet();
+  }
 }
 

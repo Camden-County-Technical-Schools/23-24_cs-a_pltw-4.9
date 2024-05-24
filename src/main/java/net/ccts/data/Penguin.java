@@ -14,5 +14,7 @@ public class Penguin extends Animal
     {
     super(food, nocturnal, aveLifeSpan);
     }                 
-
+public void speak(){
+  System.out.println("A penguin is silent");
+  }
 }

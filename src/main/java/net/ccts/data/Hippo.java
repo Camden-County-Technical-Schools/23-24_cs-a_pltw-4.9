@@ -15,4 +15,8 @@ public class Hippo extends Hooved
     {
     super(food, nocturnal, aveLifeSpan);
     }  
+    public void speak()
+  {
+    this.groan();
+  }
 }

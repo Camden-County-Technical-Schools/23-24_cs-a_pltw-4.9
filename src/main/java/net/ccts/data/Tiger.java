@@ -19,7 +19,10 @@ public Tiger(String food, boolean nocturnal,
   {
     super(food, nocturnal, aveLifeSpan);
   }
-
+public void speak()
+  {
+    super.growl();
+  }
 
 }
 

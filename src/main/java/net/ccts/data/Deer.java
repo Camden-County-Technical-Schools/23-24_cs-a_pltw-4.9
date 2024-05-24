@@ -20,4 +20,8 @@ public class Deer extends Hooved
     System.out.println("snort");
     super.sleep();
   }      
+  public void speak()
+  {
+    this.grunt();
+  }
 }

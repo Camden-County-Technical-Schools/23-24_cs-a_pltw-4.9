@@ -13,6 +13,10 @@ public class Owl extends Animal
                 double aveLifeSpan)
     {
     super(food, nocturnal, aveLifeSpan);
-    }                 
+    } 
+     public void speak()     {
 
+               
+  System.out.println("An owl hoots");
+     }
 }

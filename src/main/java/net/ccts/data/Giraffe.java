@@ -14,5 +14,8 @@ public class Giraffe extends Hooved
     {
     super(food, nocturnal, aveLifeSpan);
     }                 
-
+public void speak()
+  {
+    this.hum();
+  }
 }

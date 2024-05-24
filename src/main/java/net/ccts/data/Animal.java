@@ -43,4 +43,6 @@ public Animal(String food, boolean nocturnal,
 
 public Animal(){}
 
+ public abstract void speak();
+ 
 }

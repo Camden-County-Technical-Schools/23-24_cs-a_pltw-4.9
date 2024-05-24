@@ -15,6 +15,9 @@ public class Lion extends Feline
   {
     super(food, nocturnal, aveLifeSpan);
   }
-
+public void speak()
+  {
+    super.roar();
+  }
 
 }

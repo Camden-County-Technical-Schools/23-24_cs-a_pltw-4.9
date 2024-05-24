@@ -2,10 +2,15 @@ package net.ccts.core;
 
 import net.ccts.data.*;
 
+import java.util.ArrayList;
+
 public class ZooKeeperRunner {
+
+    private static final ArrayList<Animal> zoo = new ArrayList<>();
 
     public static void main(String[] args)
     {
+        
 
         // step 14
         Elephant elephant = new Elephant("leaves, grasses, roots", false, 60.0);
@@ -21,6 +26,8 @@ public class ZooKeeperRunner {
         elephant.getLifeSpan();
 
         System.out.println();
+        zoo.add(elephant);
+
         
 
 
@@ -34,18 +41,25 @@ public class ZooKeeperRunner {
         tiger.getLifeSpan();
 
         System.out.println();
+        zoo.add(tiger);
+
         
 
         
         
-        Tiger tiger2 = new Tiger();
-        Elephant elephant2 = new Elephant();
+        //Tiger tiger2 = new Tiger();
+
+       // Elephant elephant2 = new Elephant();
         
 
         
         Gorilla gorilla = new Gorilla();
+        gorilla.grunt();
+
 
         System.out.println();
+        zoo.add(gorilla);
+
         
 
        
@@ -57,28 +71,46 @@ public class ZooKeeperRunner {
         giraffe.isNocturnal();
         giraffe.getLifeSpan();
 
-
-
         System.out.println();
+        zoo.add(giraffe);
+
+
+        Deer deer = new Deer();
+        deer.grunt();
+        zoo.add(deer);
+
+        Monkey monkey = new Monkey();
+        monkey.speak();
+        zoo.add(monkey);
         
 
         // step 29
         Hippo hippo = new Hippo();
         hippo.eat();
-
+    
         System.out.println();
+        zoo.add(hippo);
 
-        /*
+
+        
         Penguin penguin = new Penguin();
         penguin.fish();
 
         System.out.println();
+        zoo.add(penguin);
+
 
         Owl owl = new Owl();
         owl.hunt();
         Owl owl2 = new Owl("mice,insects", true, 4.0);
         owl2.eat();
-        */
+        
+        zoo.add(owl);
+
+
+        for(Animal a : zoo){
+            a.speak();
+        } 
 
         System.out.println("done");
 

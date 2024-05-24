@@ -21,4 +21,10 @@ public class Tiger extends Feline{
         System.out.println("The Tiger has arrived");
 
     }   
+
+    @Override
+
+    public void speak(){
+        super.growl();
+    }
 }

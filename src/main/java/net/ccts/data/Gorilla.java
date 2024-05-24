@@ -14,4 +14,10 @@ public class Gorilla extends Primate
 
     System.out.println("The Gorilla has Arrived");
   }
+
+  @Override
+
+  public void speak(){
+    grunt();
+  }
 }

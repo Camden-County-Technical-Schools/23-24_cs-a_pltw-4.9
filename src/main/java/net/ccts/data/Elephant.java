@@ -20,4 +20,10 @@ public class Elephant extends Animal{
         System.out.println("The Elephant has arrived");
 
     }   
+
+    @Override
+
+    public void speak(){
+        trumpet();
+    }
 }

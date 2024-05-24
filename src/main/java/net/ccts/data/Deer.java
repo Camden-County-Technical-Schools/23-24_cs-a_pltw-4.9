@@ -13,4 +13,10 @@ public class Deer extends Hooved
   public Deer(){
     
   }
+
+  @Override
+
+  public void speak(){
+    grunt();
+  }
 }

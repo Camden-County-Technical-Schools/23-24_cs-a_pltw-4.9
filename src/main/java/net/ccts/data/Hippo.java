@@ -13,4 +13,11 @@ public class Hippo extends Hooved
   public Hippo(){
     
   }
+
+  @Override
+
+  public void speak(){
+    groan();
+  }
+  
 }

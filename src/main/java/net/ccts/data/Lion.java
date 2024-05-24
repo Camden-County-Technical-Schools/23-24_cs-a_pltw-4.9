@@ -10,4 +10,10 @@ public class Lion extends Feline{
     public Lion(){
         
     }
+
+    @Override
+
+    public void speak(){
+        super.roar();
+    }
 }

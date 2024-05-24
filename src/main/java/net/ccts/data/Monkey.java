@@ -23,4 +23,11 @@ public class Monkey extends Primate
   public Monkey(){
     
   }
+
+  @Override
+
+  public void speak(){
+    hoot();
+    howl();
+  }
 }

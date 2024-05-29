@@ -16,6 +16,11 @@ public class Elephant extends Animal
     
   }
 
+  public void speak()
+  {
+    this.trumpet();
+  }
+
   public void trumpet()
   {
     System.out.println("The elephant makes trumpet noises.");

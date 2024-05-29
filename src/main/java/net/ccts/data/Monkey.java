@@ -25,6 +25,12 @@ public class Monkey extends Primate
     System.out.println("The monkey howls.");
   }
 
+  public void speak()
+  {
+    this.hoot();
+    this.howl();
+  }
+
   @Override
     public void sleep() {
         System.out.println("The monkey forages for seeds");

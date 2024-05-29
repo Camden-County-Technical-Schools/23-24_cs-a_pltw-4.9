@@ -15,6 +15,11 @@ public class Gorilla extends Primate
     System.out.println("The gorilla grunts.");
   }
 
+  public void speak()
+  {
+    this.grunt();
+  }
+
   @Override
     public void sleep() {
         System.out.println("The gorilla forages for bamboo shoots");

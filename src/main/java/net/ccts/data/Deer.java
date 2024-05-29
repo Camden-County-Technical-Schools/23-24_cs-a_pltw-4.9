@@ -14,6 +14,11 @@ public class Deer extends Hooved
     System.out.println("The deer grunts.");
   }
 
+  public void speak()
+  {
+    this.grunt();
+  }
+
   @Override
     public void sleep() {
         System.out.println("snort");

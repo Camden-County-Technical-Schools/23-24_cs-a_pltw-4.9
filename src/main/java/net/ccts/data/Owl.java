@@ -18,4 +18,10 @@ public class Owl extends Bird
   {
     System.out.println("The owl went on a hunt.");
   }
+
+  public void speak()
+  {
+    System.out.println("An owl hoots");
+  }
+
 }

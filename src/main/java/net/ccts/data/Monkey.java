@@ -32,7 +32,7 @@ public class Monkey extends Primate
   }
 
   @Override
-    public void sleep() {
+    public void forage() {
         System.out.println("The monkey forages for seeds");
     }
   

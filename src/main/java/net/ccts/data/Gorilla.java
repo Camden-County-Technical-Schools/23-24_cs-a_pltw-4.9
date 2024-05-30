@@ -21,7 +21,7 @@ public class Gorilla extends Primate
   }
 
   @Override
-    public void sleep() {
+    public void forage() {
         System.out.println("The gorilla forages for bamboo shoots");
     }
 }

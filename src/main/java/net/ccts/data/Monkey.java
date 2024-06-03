@@ -23,4 +23,9 @@ public class Monkey extends Primate
   public void sleep(){
     System.out.println(" The Monkey sleeps.");
   }
+
+  public void forage(){
+    System.out.println(" The moneky forages for seeds.");
+  }
+
 }

@@ -13,4 +13,9 @@ public class Gorilla extends Primate
   public void sleep(){
     System.out.println(" The Gorilla sleeps.");
   }
+
+  public void forage(){
+    System.out.println(" The Gorilla forages for bamboo shoots.");
+  }
+
 }

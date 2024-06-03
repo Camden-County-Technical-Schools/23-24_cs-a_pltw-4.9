@@ -11,7 +11,8 @@ public class Deer extends Hooved
   }
 
   public void sleep(){
-    System.out.println(" The Deer sleeps.");
+    System.out.println("Snort");
+    super.sleep();
   }
 
     

@@ -13,4 +13,6 @@ public class Giraffe extends Hooved
   public void sleep(){
     System.out.println(" The Giraffe sleeps.");
   }
+
+
 }

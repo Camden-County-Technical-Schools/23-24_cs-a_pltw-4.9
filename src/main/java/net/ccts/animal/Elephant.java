@@ -2,21 +2,26 @@ package net.ccts.animal;
 
 import net.ccts.data.*;
 public class Elephant extends Animal {
-
-public void forage() {
-    System.out.println("The elephant forages for food.");
-  }
-public void trumpet() {
-    System.out.println("The elephants trumpets.");
-  }
-
-public Elephant() {
-  
-}
-
-public Elephant(String food, boolean nocturnal, double aveLifeSpan) {
+    
+    public Elephant(String food, boolean nocturnal, double aveLifeSpan) {
         super(food, nocturnal, aveLifeSpan);
-        System.out.println("A new elephant arrives.");
+        System.out.println("A new elephant has arrived.");
     }
 
+    public Elephant() {
+        
+    }
+
+    public void trumpet() {
+        System.out.println("* elephant makes trumpet sounds*");
+    }
+
+    public void forage() {
+        System.out.println("*elephant makes foraging sounds");
+    }
+
+    @Override
+    public void speak() {
+        trumpet();
+    }
 }

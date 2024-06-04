@@ -6,18 +6,20 @@ import net.ccts.data.*;
  */
 public class Deer extends Hooved
 {
+
+  @Override
+  public void speak() {
+    grunt();
+  }
+
   public void grunt()
   {
     System.out.println("The deer grunts.");
   }
 
- private Hooved hooved = new Hooved() {
-
-@Override
-    public void sleep() {
-        System.out.println("snort");
-        hooved.sleep(); 
- }
-    };
-
+  @Override
+  public void sleep() {
+    System.out.println("snort");
+    super.sleep();
+  }
 }

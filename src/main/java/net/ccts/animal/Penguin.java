@@ -1,13 +1,20 @@
 package net.ccts.animal;
 import net.ccts.data.*;
-public class Penguin extends Bird
-{
-  public Penguin() {
-    
-  }
+public class Penguin extends Bird{
+    public Penguin(String food, boolean nocturnal, double aveLifeSpan) {
+        super(food, nocturnal, aveLifeSpan);
+    }
 
-  public void fish()
-  {
-    System.out.println("The penguin catches a fish.");
-  }
+    public Penguin() {
+
+    }
+
+    public void fish() {
+        System.out.println("Penguin fish");
+    }
+
+    @Override
+    public void speak() {
+        System.out.println("A penguin is silent.");
+    }
 }
